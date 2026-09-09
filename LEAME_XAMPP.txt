@@ -1,0 +1,45 @@
+========================================================================
+ GUÍA DE INSTALACIÓN - MARÍA NAIL ART & SPA (PROYECTO PHP Y MYSQL)
+========================================================================
+
+Este directorio 'php-version' contiene la aplicación web completamente desarrollada
+en código PHP nativo y MySQL para ejecutarse directamente en XAMPP o cualquier servidor Apache/PHP.
+
+------------------------------------------------------------------------
+ PASOS PARA EJECUTAR EN XAMPP (PASO A PASO):
+------------------------------------------------------------------------
+
+1. ABRIR XAMPP:
+   - Abre el panel de control de XAMPP en tu computador.
+   - Haz clic en "Start" en los módulos "Apache" y "MySQL".
+
+2. IMPORTAR LA BASE DE DATOS EN MYSQL:
+   - Abre tu navegador web e ingresa a: http://localhost/phpmyadmin/
+   - En la barra superior, haz clic en la pestaña "Importar" (Import).
+   - Haz clic en "Seleccionar archivo" y busca el archivo "database.sql"
+     ubicado dentro de esta carpeta.
+   - Haz clic en el botón "Ejecutar" (Go) al final de la página.
+   - ¡Listo! Se creará automáticamente la base de datos `maria_nail_art` con
+     todas las tablas y usuarios de prueba.
+
+3. COPIAR ARCHIVOS A HTDOCS:
+   - Copia la carpeta 'php-version' (o renombrala a 'maria-nail-art') dentro de
+     la carpeta de XAMPP: C:\xampp\htdocs\
+
+4. ABRIR LA PÁGINA EN EL NAVEGADOR:
+   - Abre tu navegador e ingresa a:
+     http://localhost/php-version/index.php
+     (o http://localhost/maria-nail-art/index.php)
+
+------------------------------------------------------------------------
+ DATOS DE ACCESO PARA PRUEBAS:
+------------------------------------------------------------------------
+
+1. ADMINISTRADORA (Panel de Control completo):
+   - Correo: admin@marianailart.com
+   - Clave: admin123
+   - Enlace directo al panel: http://localhost/php-version/admin.php
+
+2. CLIENTA (Agendar citas y ver sus reservas):
+   - Correo: sofia@gmail.com
+   - Clave: sofia123
