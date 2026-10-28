@@ -1,9 +1,17 @@
 <?php
+<<<<<<< HEAD
 // Configuración de conexión a MySQL para XAMPP
 $host = "localhost";
 $user = "root";
 $password = "";
 $database = "maria_nail_art";
+=======
+// Configuración de la conexión a mysql para xampp
+$host = "sql309.infinityfree.com";
+$user = "if0_42877024";
+$password = "sandra24689";
+$database = "if0_42877024_marianail";
+>>>>>>> e7ba4e9 (primer commit colegio)
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$database;charset=utf8mb4", $user, $password, [

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 require_once __DIR__ . '/conexion.php';
 
 $error = '';
@@ -94,3 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </body>
 </html>
+=======
+header('Location: login/index.php');
+exit();
+>>>>>>> e7ba4e9 (primer commit colegio)

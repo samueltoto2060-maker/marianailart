@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 require_once __DIR__ . '/conexion.php';
 
 $error = '';
@@ -111,3 +112,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </body>
 </html>
+=======
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $_POST['auth_action'] = 'register';
+    $_GET['auth'] = 'register';
+    require __DIR__ . '/index.php';
+    exit();
+}
+
+header('Location: index.php?auth=register');
+exit();
+>>>>>>> e7ba4e9 (primer commit colegio)
